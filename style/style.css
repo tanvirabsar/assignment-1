@@ -146,3 +146,105 @@ background: rgb(255, 255, 255);
     flex-direction: column;
     gap: 10px;
 }
+/* section three */
+#tharde-section{
+    display: flex;
+    justify-content: center;
+}
+#tharde-section .sec-3{
+    display: flex;
+    flex-direction: column;
+    
+    gap: 20px;
+    width: 85%;
+}
+.box-container{
+    display: flex;
+    gap: 20px;
+}
+
+.box-container .box-1{
+    height: 200px;
+    width: 330px;
+    background-color: rgba(84, 144, 245, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+}
+.box-container .box-2{
+    height: 200px;
+    width: 310px;
+    background-color: rgb(198, 228, 214);
+    padding: 20px;
+    border-radius: 10px;
+}
+.box-container .box-3{
+    height: 200px;
+    width: 320px;
+    padding: 20px;
+    background-color: rgb(247, 235, 207);
+    border-radius: 10px;
+}
+.box-3 button{
+    height: 35px;
+    width: 100px;
+    border: none;
+    background-color: rgb(255, 194, 57);
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+.box-2 button{
+    height: 35px;
+    width: 100px;
+    border: none;
+    background-color: rgb(9, 161, 92);
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.box-1 button{
+    height: 35px;
+    width: 100px;
+    border: none;
+    background-color: rgb(84, 144, 245);
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+.sec-3 h1{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.sec-3 p{
+    color: rgba(14, 14, 14, 0.7);
+}
+.info{
+    background-image: url(../assets/quote-bg.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: 20px 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    height: 150px;
+    padding: 20px;
+}
+.imge{
+    width: 45px;
+}
+.imge img{
+    width: 100%;
+}
+.box-3 p{
+    margin-bottom: 10px;
+}
+.box-2 p{
+    margin-bottom: 20px;
+}
