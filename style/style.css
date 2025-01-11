@@ -248,3 +248,101 @@ background: rgb(255, 255, 255);
 .box-2 p{
     margin-bottom: 20px;
 }
+/* section four*/
+.sec-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+}
+th, td{
+    padding: 8px 60px;
+    text-align: right;
+}
+.tr{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;    
+}
+td{
+    height: 30px;
+    
+border: 1px solid rgba(14, 14, 14, 0.15);
+background: rgba(255, 255, 255, 0.1);
+}
+.td{
+    background-color: rgb(198, 228, 214);
+}
+/* */
+.new{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    
+}
+#news .main-news{
+    display: flex;
+    background-color: #fff;
+    padding: 20px;
+    gap: 20px;
+    border-radius: 20px;
+    width: 85%;
+}
+.main-news .news-img{
+    width: 600px;
+}
+.news-img img{
+    width: 100%;
+    border-radius: 20px;
+}
+.main-news .img-info p{
+    width: 30%;
+}
+.icon{
+    width: 110px;
+}
+.icon img{
+    width: 100%;
+}
+.news-btn button{
+    background-color: rgb(0, 106, 80);
+    color: white;
+    font-weight: bold;
+    border: none;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+}
+/*
+.new{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+   */
+.news-in{
+    display: flex;
+    background-color: #fff;
+    padding: 20px;
+    gap: 20px;
+    border-radius: 20px;
+    width: 85%;
+}
+    
+.news-img2{
+    width: 600px;
+}
+.news-img2 img{
+    width: 100%;
+}
+.main-news2{
+    margin-left: 100px;
+}
