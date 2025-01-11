@@ -277,7 +277,24 @@ background: rgba(255, 255, 255, 0.1);
 .td{
     background-color: rgb(198, 228, 214);
 }
-/* */
+.table{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+.tableh1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 30px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+}
+/* section five */
 .new{
     display: flex;
     flex-direction: column;
@@ -345,4 +362,160 @@ background: rgba(255, 255, 255, 0.1);
 }
 .main-news2{
     margin-left: 100px;
+}
+/* section six */
+#donate-sec{
+    display: flex;
+    justify-content: center;
+}
+.donate-container{
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.money-box{
+    display: flex;
+    gap: 10px;
+}
+.money-box div{
+    height: 70px;
+    width: 180px;
+    border-radius: 10px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.money-box div:hover{
+    cursor: pointer;
+    background-color: rgb(198, 228, 214);
+}
+.money-box div p{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 25px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+}
+.input-fild input{
+    box-sizing: border-box;
+    background: rgb(255, 255, 255);
+    border: none;
+    height: 50px;
+    width: 800px;
+    display: block;
+    text-align: center;
+    border: 1px solid rgb(198, 228, 214);
+    outline: none;
+}
+.btn-d{
+    height: 50px;
+    width: 110px;
+    background-color: rgb(0, 106, 80);
+    border: none;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn-d:hover{
+    background-color: #fff;
+    color: rgb(0, 106, 80);
+    border: 2px solid rgb(0, 106, 80);
+}
+/* saven section  */
+#subscribe-sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    padding-bottom: 80px;
+}
+.sub-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    width: 85%;
+    background-color: rgb(198, 228, 214);
+    border-radius: 20px;
+    padding: 10% 0%;
+}
+.sub-container h1{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 35px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+}
+.sub-container > p{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+width: 50%;
+}
+.inpt-btn input{
+    height: 40px;
+    width: 400px;
+    outline: none;
+    padding-left: 20px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border: none;
+}
+.inpt-btn button{
+    height: 40px;
+    background-color: rgb(0, 106, 80);
+    border: none;
+    color: white;
+    font-weight: bold;
+    width: 80px;
+    margin-left: -10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    cursor: pointer;
+}
+footer{
+    background-color: #fff;
+}
+footer .cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.cont h1{
+    margin-top: 30px;
+}
+.cont h1, .social{
+    text-align: center;
+}
+.cont p img{
+    text-align: center;
+    padding-left: 10px;
+}
+.cont hr{
+    width: 60%;
+    margin-left: 20%;
+}
+.donate-text{
+    font-size: 30px;
+    margin-top: 50px;
+}
+.donate-container .pex{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
 }
